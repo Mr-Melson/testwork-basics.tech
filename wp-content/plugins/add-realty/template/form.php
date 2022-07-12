@@ -14,19 +14,19 @@
                 <div class="col-md-6 mb-3">
                     <label for="square">Площадь недвижимости*</label>
                     <p>
-                        <input id="square" name="square" type="number" value="" placeholder="Площадь" min=1 step="0,01">
+                        <input id="square" name="square" type="number" value="" placeholder="Площадь" min=1 step="0.01">
                     </p>
                 </div>
                 <div class="col-md-6 mb-3">
                     <label for="price">Стоимость недвижимости*</label>
                     <p>
-                        <input id="price" name="price" type="number" value="" placeholder="Цена" min=0 step="0,01">
+                        <input id="price" name="price" type="number" value="" placeholder="Цена" min=0 step="0.01">
                     </p>
                 </div>
                 <div class="col-md-6 mb-3">
                     <label for="living_space">Жилая площадь недвижимости*</label>
                     <p>
-                        <input id="living_space" name="living_space" type="number" value="" placeholder="Жилая площадь" min=1 step="0,01">
+                        <input id="living_space" name="living_space" type="number" value="" placeholder="Жилая площадь" min=1 step="0.01">
                     </p>
                 </div>
                 <div class="col-md-6 mb-3">
@@ -39,7 +39,7 @@
                 <div class="col-md-6 mb-3">
                     <label for="adress_create">Адрес*</label>
                     <p>
-                        <input id="adress_create" name="adress_create" type="date" value="" placeholder="Адрес">
+                        <input id="adress_create" name="adress_create" type="text" placeholder="Адрес">
                     </p>
                 </div>
 
