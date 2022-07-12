@@ -43,6 +43,25 @@
             "mime_types": ""
         },
         {
+            "key": "field_62cd87f5c21b0",
+            "label": "404 описание",
+            "name": "desc_404",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "75",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 4,
+            "new_lines": ""
+        },
+        {
             "key": "field_62cd739ef4b54",
             "label": "Telegram",
             "name": "telegram",
@@ -99,5 +118,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1657631728
+    "modified": 1657636877
 }
