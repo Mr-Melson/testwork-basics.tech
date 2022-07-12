@@ -21,6 +21,14 @@ get_header();
         </div>
     </div>
 </section>
+<?php
+$childrens = get_children([
+    'post_parent' => get_the_ID(),
+    'post_type'   => 'realty',
+    'numberposts' => 10,
+]);
+if ($childrens) {
+?>
 <section>
     <div class="container mt-5">
         <h2>Недвижимость города <?php the_title(); ?></h2>
@@ -30,31 +38,23 @@ get_header();
                 <div class="swiper realty_swiper">
                     <div class="swiper-wrapper">
                         <?php
-                        $childrens = get_children([
-                            'post_parent' => get_the_ID(),
-                            'post_type'   => 'realty',
-                            'numberposts' => 10,
-                        ]);
-
-                        if ($childrens) {
-                            foreach ($childrens as $children) {
-                                ?>
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <a href="<?php echo get_the_permalink($children->ID); ?>" class="card-link card-img-top">
-                                            <?php echo get_the_post_thumbnail($children->ID, 'full'); ?>
-                                        </a>
-                                        <div class="card-body">
-                                            <h5 class="card-title">
-                                                <a href="<?php echo get_the_permalink(); ?>">
-                                                    <?php echo get_the_title($children->ID); ?>
-                                                </a>
-                                            </h5>
-                                        </div>
+                        foreach ($childrens as $children) {
+                            ?>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <a href="<?php echo get_the_permalink($children->ID); ?>" class="card-link card-img-top">
+                                        <?php echo get_the_post_thumbnail($children->ID, 'full'); ?>
+                                    </a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="<?php echo get_the_permalink(); ?>">
+                                                <?php echo get_the_title($children->ID); ?>
+                                            </a>
+                                        </h5>
                                     </div>
                                 </div>
-                                <?php
-                            }
+                            </div>
+                            <?php
                         }
                         ?>
                     </div>
@@ -63,5 +63,6 @@ get_header();
         </div>
     </div>
 </section>
+<?php } ?>
 <?php
 get_footer();
