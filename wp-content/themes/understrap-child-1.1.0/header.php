@@ -12,14 +12,14 @@
 	<header class="header">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-2 align-self-end">
+				<div class="col-lg-2 align-self-end">
 					<div id="logo">
 						<a href="/" class="d-block">
 							<img src="<?php echo get_field( 'logo', 'options' ); ?>" class="img-fluid" alt="Logo">
 						</a>
 					</div>
 				</div>
-				<div class="col-md d-flex align-self-center justify-content-end">
+				<div class="col-lg d-flex align-self-center justify-content-end">
 					<div id="search">
 						<form role="search" method="get" id="searchform" class="row" action="<?php echo home_url( '/' ) ?>" >
 							<div class="col-sm-8">

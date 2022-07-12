@@ -12,7 +12,7 @@ $type = wp_get_post_terms( get_the_ID(), 'type' );
 <section>
     <div class="container mt-5">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-lg-4">
 
                 <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper gallery_swiper">
                     <div class="swiper-wrapper">
@@ -50,7 +50,7 @@ $type = wp_get_post_terms( get_the_ID(), 'type' );
                 </div>
 
             </div>
-            <div class="col-md">
+            <div class="col-lg">
                 <h1><?php the_title(); ?></h1>
 
                 <?php if ( $town = wp_get_post_parent_id(get_the_ID()) ) : ?>

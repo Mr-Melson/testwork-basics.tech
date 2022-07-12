@@ -11,10 +11,10 @@ get_header();
 <section>
     <div class="container mt-5">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <?php echo get_the_post_thumbnail(get_the_ID(), 'full'); ?>
             </div>
-            <div class="col-md">
+            <div class="col-lg">
                 <h1><?php the_title(); ?></h1>
                 <?php the_content(); ?>
             </div>
