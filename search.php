@@ -8,30 +8,36 @@
 
 get_header();
 
-$paged = get_query_var('paged') ? get_query_var('paged') : 1;
+?>
+<section>
+    <div class="container mt-5">
+        <div class="row">
 
-$product_args = array(
-	'post_type' => 'product',
-	'post_status' => 'publish',
-    'paged' => $paged,
-    's' => $_GET['s']
-);
+            <div class="col-12">
+                <h1>Поиск: <?php echo get_search_query() ?></h1>
+            </div>
 
-$product_query = new WP_Query( $product_args );
+            <?php
+            if( have_posts() ):
+                while (have_posts()) {
+                    the_post();
+                    
+                    include(THEME_DIR . '/template-parts/loop/search-item.php');
+                }
+            else:
+                echo '<div class="col-12"><h2>Записей не найдено...</h2></div>';
+            endif;
+            ?>
 
-$news_args = array(
-	'post_type' => 'news',
-	'post_status' => 'publish',
-    'paged' => $paged,
-    's' => $_GET['s']
-);
+            <div class="col-12 mt-5">
+                <div class="pagination">
+                    <?php echo paginate_links(); ?>
+                </div>
+            </div>
 
-$news_query = new WP_Query( $news_args );
-
-$all_count = $product_query->found_posts + $news_query->found_posts;
-$max_num_pages = $product_query->max_num_pages;
-if( $max_num_pages < $news_query->max_num_pages ){
-    $max_num_pages = $news_query->max_num_pages;
-}
+        </div>
+    </div>
+</section>
+<?php
 
 get_footer();
