@@ -1,0 +1,39 @@
+# ignore everything in the root except the "wp-content" directory.
+!wp-content/
+wp-includes/
+wp-admin/
+
+.htaccess
+license.txt
+readme.html
+/*.php
+
+wp-content/mu-plugins/
+wp-content/languages/
+wp-content/backups-dup-lite/
+wp-content/uploads/
+wp-content/webp-express/
+wp-content/db.php
+wp-content/index.php
+wp-content/themes/index.php
+wp-content/*.php/
+wp-content/plugins/*
+!wp-content/plugins/add-realty
+# ignore everything in the "wp-content" directory, except:
+# "mu-plugins", "plugins", "themes" directory
+wp-content/themes/understrap
+!wp-content/themes/understrap-child-1.1.0/**/*
+
+# ignore these plugins
+wp-content/plugins/hello.php
+
+# ignore specific themes
+wp-content/themes/twenty*/
+
+# ignore node dependency directories
+node_modules/
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
