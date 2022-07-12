@@ -62,7 +62,7 @@ $type = wp_get_post_terms( get_the_ID(), 'type' );
                 <?php if( $type ): ?>
                     <p>Тип недвижимости: 
                         <?php foreach ($type as $item) { ?>
-                            <a href="/?<?php echo $item->slug; ?>"><?php echo $item->name; ?></a>
+                            <a href="/?type=<?php echo $item->slug; ?>"><?php echo $item->name; ?></a>
                         <?php }; ?>
                     </p>
                 <?php endif; ?>
