@@ -1,0 +1,158 @@
+{
+    "key": "group_62cd9d955410d",
+    "title": "Контент",
+    "fields": [
+        {
+            "key": "field_62cd9d9e90e01",
+            "label": "Шаблоны",
+            "name": "tempates",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_62cd9dd390e03": {
+                    "key": "layout_62cd9dd390e03",
+                    "name": "promo",
+                    "label": "Заголовок",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_62cd9de490e04",
+                            "label": "Текст",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62cd9dafe08fe": {
+                    "key": "layout_62cd9dafe08fe",
+                    "name": "last_realty",
+                    "label": "Последняя недвижимость",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_62cd9e78f38c6",
+                            "label": "Информация",
+                            "name": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "Здесь выводятся последние записи недвижимости.",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62cd9dc690e02": {
+                    "key": "layout_62cd9dc690e02",
+                    "name": "last_towns",
+                    "label": "Последние города",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_62cd9e96f38c7",
+                            "label": "Информация",
+                            "name": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "Здесь выводятся последние записи недвижимости.",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62cd9df290e05": {
+                    "key": "layout_62cd9df290e05",
+                    "name": "wpide",
+                    "label": "Текстовый редактор",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_62cd9e1590e06",
+                            "label": "Содержимое",
+                            "name": "content",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Добавить",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1657642676
+}

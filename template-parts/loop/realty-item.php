@@ -8,6 +8,6 @@
                 <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
             </h5>
         </div>
-        <?php include(THEME_DIR . '/template-parts/common/realty-info.php'); ?>
+        <?php include(THEME_DIR . '/template-parts/common-parts/realty-info.php'); ?>
     </div>
 </div>

@@ -67,7 +67,7 @@ $type = wp_get_post_terms( get_the_ID(), 'type' );
                     </p>
                 <?php endif; ?>
 
-                <?php include(THEME_DIR . '/template-parts/common/realty-info.php'); ?>
+                <?php include(THEME_DIR . '/template-parts/common-parts/realty-info.php'); ?>
             </div>
         </div>
     </div>
