@@ -1,0 +1,17 @@
+#primary-menu ul li a{
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.card-img-top{
+    height: 160px;
+}
+.card-img-top img.wp-post-image{
+    object-fit: cover;
+    height: 100%;
+}
+.list-group-item svg{
+    max-height: 23px;
+    width: 100%;
+}
