@@ -1,11 +1,17 @@
 <?php
 /**
- * Index template file.
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
  *
- * @package Understrapchild\Template
+ * @package WordPress
  */
 
-get_header();
-the_post();
-the_content();
-get_footer();
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define( 'WP_USE_THEMES', true );
+
+/** Loads the WordPress Environment and Template */
+require __DIR__ . '/wp-blog-header.php';
