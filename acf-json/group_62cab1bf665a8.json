@@ -1,0 +1,155 @@
+{
+    "key": "group_62cab1bf665a8",
+    "title": "Данные о недвижимости",
+    "fields": [
+        {
+            "key": "field_62cab1ebb2780",
+            "label": "Площадь",
+            "name": "square",
+            "type": "number",
+            "instructions": "(Квадратные метры)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": 1,
+            "max": "",
+            "step": "0.01"
+        },
+        {
+            "key": "field_62cab21bb2781",
+            "label": "Стоимость",
+            "name": "price",
+            "type": "number",
+            "instructions": "(Рубли)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": 0,
+            "max": "",
+            "step": "0.01"
+        },
+        {
+            "key": "field_62cab2c7b2782",
+            "label": "Жилая площадь",
+            "name": "living_space",
+            "type": "number",
+            "instructions": "(Квадратные метры)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": 1,
+            "max": "",
+            "step": "0.01"
+        },
+        {
+            "key": "field_62cab33db2783",
+            "label": "Этаж",
+            "name": "floor",
+            "type": "number",
+            "instructions": "Начиная с 1го этажа.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": 1,
+            "prepend": "",
+            "append": "",
+            "min": 1,
+            "max": "",
+            "step": 1
+        },
+        {
+            "key": "field_62cab367b2784",
+            "label": "Адрес",
+            "name": "address",
+            "type": "text",
+            "instructions": "Укажите полный адрес недвижимости.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_62cab56a72b57",
+            "label": "Галерея",
+            "name": "gallery",
+            "type": "gallery",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "medium",
+            "insert": "append",
+            "library": "all",
+            "min": "",
+            "max": "",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "realty"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1657451927
+}
