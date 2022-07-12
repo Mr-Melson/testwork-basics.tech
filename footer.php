@@ -1,5 +1,5 @@
-<footer class="bg-dark text-white">
-	<div class="container pt-5">
+<footer class="bg-dark text-white mt-5">
+	<div class="container pt-5 pb-5">
 		<div class="row">
 			<div class="col">
 				<ul class="list-group list-group-horizontal justify-content-center">
@@ -25,7 +25,7 @@
 						</li>
 					<?php endif; ?>
 				</ul>
-				<p class="text-center">Copyright © 2022</p>
+				<p class="text-center mt-3 mb-0">Copyright © 2022</p>
 			</div>
 		</div>
 	</div>
