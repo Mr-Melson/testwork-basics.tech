@@ -2,7 +2,7 @@
 
 /**
  *
- * @package Understrapchild\News-Template
+ * @package Understrapchild\Realty-Template
  */
 
 the_post();
