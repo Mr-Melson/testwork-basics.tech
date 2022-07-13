@@ -22,10 +22,10 @@
 				<div class="col-lg d-flex align-self-center justify-content-end">
 					<div id="search">
 						<form role="search" method="get" id="searchform" class="row" action="<?php echo home_url( '/' ) ?>" >
-							<div class="col-sm-8">
+							<div class="col-8">
 								<input type="text" value="<?php echo get_search_query() ?>" name="s" id="s" class="form-control" placeholder="Поиск..."/>
 							</div>
-							<div class="col-sm">
+							<div class="col">
 								<input type="submit" id="searchsubmit" value="Найти" class="btn btn-dark"/>
 							</div>
 						</form>

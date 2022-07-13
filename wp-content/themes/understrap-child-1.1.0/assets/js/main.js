@@ -1,7 +1,15 @@
 var realty_swiper = new Swiper(".realty_swiper", {
     loop: true,
     spaceBetween: 10,
-    slidesPerView: 4,
+    slidesPerView: 2,
+    breakpoints: {
+      640: {
+        slidesPerView: 3,
+      },
+      768: {
+        slidesPerView: 4,
+      },
+    },
 });
 
 var gallery_swiper = new Swiper(".gallery_thumb_swiper", {
