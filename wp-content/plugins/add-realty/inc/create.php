@@ -1,6 +1,5 @@
 <?php
 add_action( 'wp_ajax_create_realty', 'create_realty' );
-add_action( 'wp_ajax_nopriv_create_realty', 'create_realty' );
 
 function create_realty() {
 
