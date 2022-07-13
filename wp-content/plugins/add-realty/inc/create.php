@@ -24,19 +24,19 @@ function create_realty() {
             $link = get_permalink($post_id);
 
             if( '' != $_POST['square'] ){
-                update_post_meta( $post_id, 'square', $_POST['square'] );
+                update_post_meta( $post_id, 'square', sanitize_text_field( $_POST['square'] ) );
             }
             if( '' != $_POST['price'] ){
-                update_post_meta( $post_id, 'price', $_POST['price'] );
+                update_post_meta( $post_id, 'price', sanitize_text_field( $_POST['price'] ) );
             }
             if( '' != $_POST['living_space'] ){
-                update_post_meta( $post_id, 'living_space', $_POST['living_space'] );
+                update_post_meta( $post_id, 'living_space', sanitize_text_field( $_POST['living_space'] ) );
             }
             if( '' != $_POST['floor'] ){
-                update_post_meta( $post_id, 'floor', $_POST['floor'] );
+                update_post_meta( $post_id, 'floor', sanitize_text_field( $_POST['floor'] ) );
             }
             if( '' != $_POST['adress_create'] ){
-                update_post_meta( $post_id, 'address', $_POST['adress_create'] );
+                update_post_meta( $post_id, 'address', sanitize_text_field( $_POST['adress_create'] ) );
             }
             if( '' != $_POST['type_of_realty'] ){
                 wp_set_post_terms( $post_id, array($_POST['type_of_realty']), 'type' );
