@@ -2,8 +2,11 @@
     <div class="container mt-5">
         <div class="row">
 
-            <div class="col-12">
+            <div class="col-6">
                 <h2>Города</h2>
+            </div>
+            <div class="col-6">
+                <h4 class="text-right"><a href="/town/">Смотреть все</a></h4>
             </div>
 
             <?php
