@@ -7,7 +7,7 @@
             "label": "Площадь",
             "name": "square",
             "type": "number",
-            "instructions": "(Квадратные метры)",
+            "instructions": "м²",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -28,7 +28,7 @@
             "label": "Стоимость",
             "name": "price",
             "type": "number",
-            "instructions": "(Рубли)",
+            "instructions": "₽",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -49,7 +49,7 @@
             "label": "Жилая площадь",
             "name": "living_space",
             "type": "number",
-            "instructions": "(Квадратные метры)",
+            "instructions": "м²",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -70,7 +70,7 @@
             "label": "Этаж",
             "name": "floor",
             "type": "number",
-            "instructions": "Начиная с 1го этажа.",
+            "instructions": "с 1-го",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -151,5 +151,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1657670461
+    "modified": 1657737332
 }
