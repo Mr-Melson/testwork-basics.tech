@@ -45,6 +45,7 @@ final class Core {
 		new CPT\Realty();
 		new CPT\Town();
 		new CPT\Connection();
+		new Content\Control();
 
 		new Menu\Menu();
 	}
