@@ -91,7 +91,7 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "message": "Здесь выводятся последние записи недвижимости.",
+                            "message": "Здесь выводятся последние записи городов.",
                             "new_lines": "wpautop",
                             "esc_html": 0
                         }
@@ -154,5 +154,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1657642676
+    "modified": 1657728272
 }
