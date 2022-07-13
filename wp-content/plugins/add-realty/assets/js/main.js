@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     }
 
     function allLetter(input) {
-        var letters = /^[0-9А-Яа-яA-Za-z]+$/;
+        var letters = /^[0-9А-Яа-яA-Za-z\s,.]+$/;
 
         if (input.match(letters)) {
             return true;
@@ -219,7 +219,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     }
 
     function CheckDecimal(inputtxt){ 
-        var decimal =  /^[-+]?[0-9]+\.[0-9]+$/; 
+        var decimal =  /^[-+]?[0-9]+\.*[0-9]+$/; 
         if(inputtxt.match(decimal)){ 
             return true;
         } else { 
