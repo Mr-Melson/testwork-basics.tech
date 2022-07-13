@@ -46,7 +46,7 @@ class Connection {
 			echo '</ul></div>';
 		}
 		else
-			echo 'Команд нет...';
+			echo 'Нет закрепленного города...';
 	}
 
 	/**
@@ -62,7 +62,7 @@ class Connection {
 			}
 		}
 		else
-			echo 'Игроков нет...';
+			echo 'Недвижимости нет...';
 	}
 
 }
