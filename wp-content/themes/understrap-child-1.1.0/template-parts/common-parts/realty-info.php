@@ -3,7 +3,7 @@
         <li class="list-group-item">Площадь: <?php echo $square ?></li>
     <?php endif; ?>
     <?php if( $price = get_field( 'price' ) ): ?>
-        <li class="list-group-item">Стоимость: <?php echo $price ?></li>
+        <li class="list-group-item">Стоимость: <?php echo number_format( $price, 0, '', ' '); ?></li>
     <?php endif; ?>
     <?php if( $living_space = get_field( 'living_space' ) ): ?>
         <li class="list-group-item">Жилая площадь: <?php echo $living_space ?></li>
