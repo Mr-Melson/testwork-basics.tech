@@ -108,7 +108,7 @@
         {
             "key": "field_62cab56a72b57",
             "label": "Галерея",
-            "name": "gallery",
+            "name": "thumbs_gallery",
             "type": "gallery",
             "instructions": "",
             "required": 0,
@@ -151,5 +151,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1657451927
+    "modified": 1657670461
 }

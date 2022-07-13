@@ -20,7 +20,7 @@
                 <div class="col-md-6 mb-3">
                     <label for="price">Стоимость недвижимости*</label>
                     <p>
-                        <input id="price" name="price" type="number" value="" placeholder="Цена" min=0 step="0.01">
+                        <input id="price" name="price" type="number" value="" placeholder="Стоимость" min=0 step="0.01">
                     </p>
                 </div>
                 <div class="col-md-6 mb-3">

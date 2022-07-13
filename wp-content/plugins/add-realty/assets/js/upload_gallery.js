@@ -28,13 +28,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
             var imagesurl = '';
     
             attachments.forEach(function( element, idx, array ){
-                imagesurl = imagesurl + element.attributes.url;
+                imagesurl = imagesurl + element.attributes.id;
                 if (idx != array.length - 1){
                     imagesurl = imagesurl + ', ';
                 }
             });
     
-            console.log(imagesurl);
             input.value = imagesurl;
             document.querySelector('#result').innerHTML = 'Изображения загружены';
         });

@@ -17,7 +17,7 @@ $type = wp_get_post_terms( get_the_ID(), 'type' );
                 <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper gallery_swiper">
                     <div class="swiper-wrapper">
                         <?php
-                        $gallery = get_field('gallery');
+                        $gallery = get_field('thumbs_gallery');
                         if( $gallery ){
                             foreach ($gallery as $item) {
                                 ?>
